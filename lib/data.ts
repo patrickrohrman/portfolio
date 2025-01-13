@@ -2,7 +2,7 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import example1Img from "@/public/example1.jpg";
+import sarah from "@/public/sarah.png";
 import example2Img from "@/public/example2.jpg";
 import example3Img from "@/public/example3.jpg";
 
@@ -62,25 +62,28 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "project example1",
+    title: "Sarahrohrman.com",
     description:
       "Lorem ipsum odor amet, consectetuer adipiscing elit. Mollis sodales velit posuere; eu ut himenaeos tristique mollis montes.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: example1Img,
+    tags: ["WordPress", "React", "MySQL", "Bootstrap", "Elementor"],
+    imageUrl: sarah,
+    url: "https://www.sarahrohrman.com",
   },
   {
-    title: "rmtDev",
+    title: "project example 2",
     description:
       "Lorem ipsum odor amet, consectetuer adipiscing elit. Mollis sodales velit posuere; eu ut himenaeos tristique mollis montes.",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
     imageUrl: example2Img,
+    url: "https://www.google.com",
   },
   {
-    title: "Word Analytics",
+    title: "project example 3",
     description:
       "Lorem ipsum odor amet, consectetuer adipiscing elit. Mollis sodales velit posuere; eu ut himenaeos tristique mollis montes.",
     tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
     imageUrl: example3Img,
+    url: "http://www.google.com",
   },
 ] as const;
 

@@ -38,7 +38,7 @@ export const experiencesData = [
     title: "experience",
     location: "local 1",
     description:
-      "to be changed",
+      "Lorem ipsum odor amet, consectetuer adipiscing elit. Conubia duis sem tortor tempus in aliquet sem.",
     icon: React.createElement(LuGraduationCap),
     date: "1999",
   },
@@ -46,7 +46,7 @@ export const experiencesData = [
     title: "title",
     location: "location",
     description:
-      "description",
+      "Lorem ipsum odor amet, consectetuer adipiscing elit. Conubia duis sem tortor tempus in aliquet sem.",
     icon: React.createElement(CgWorkAlt),
     date: "1999-2000",
   },
@@ -54,7 +54,7 @@ export const experiencesData = [
     title: "another title",
     location: "another location",
     description:
-      "I am another description",
+      "Lorem ipsum odor amet, consectetuer adipiscing elit. Conubia duis sem tortor tempus in aliquet sem.",
     icon: React.createElement(FaReact),
     date: "2000-2001",
   },

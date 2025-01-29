@@ -1,6 +1,6 @@
 ## Patrick Rohrman Portfolio
 
-### Find me on [Linkedin](www.linkedin.com/in/prohrman)
+### Find me on [Linkedin](http://www.linkedin.com/in/prohrman)
 
 Project created using the following tech:
 

@@ -24,7 +24,7 @@ export default function Header() {
                initial={{ y: -100, opacity: 0 }}
                animate={{ y: 0, opacity: 1 }}
                >
-                <Link className={clsx("flex w-full items-center justify-center px-3 py-2 hover:text-gray-950 transition", { "text-grey-950": activeSection === link.name,})} href={link.hash} onClick={() => {setActiveSection(link.name); setTimeOfLastClick(Date.now());} }>
+                <Link className={clsx("flex w-full items-center justify-center px-3 sm:py-2 hover:text-gray-950 transition", { "text-grey-950": activeSection === link.name,})} href={link.hash} onClick={() => {setActiveSection(link.name); setTimeOfLastClick(Date.now());} }>
                 {link.name}
                 
                 {

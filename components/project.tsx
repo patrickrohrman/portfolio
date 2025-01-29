@@ -20,8 +20,8 @@ export default function Project({title, description, tags, imageUrl, url }: Proj
     return (
         
     <motion.div ref={ref} style={{scale: scaleProgress, opacity: opacityProgress}} className='mb-4 sm:mb-8 last:mb-0 group'>
-    <section className='bg-gray-100 max-w-[42rem] rounded-lg border border-black/5 overflow-hidden sm:pr-8 relative sm:h-[20rem] even:pl-8 hover:bg-gray-200 transition'>
-        <div className='pt-4 pb-8 px-5 sm:pl-10 sm:pr-2 sm:pt-10 sm:max-w-[50%] flex flex-col h-full group-even:ml-[18rem]'>
+    <section className='bg-gray-100 max-w-[42rem] rounded-lg border border-black/5 overflow-hidden sm:pr-8 relative sm:h-[20rem] even:pl-8 hover:bg-gray-200 transition drop-shadow-md'>
+        <div className='pt-4 pb-8 px-5 sm:pl-10 sm:pr-2 sm:pt-10 sm:max-w-[50%] flex flex-col h-full sm:group-even:ml-[18rem]'>
         <a href={url}>
             <h3 className='text-2xl font-semibold'>{title}</h3>
         </a>
@@ -33,7 +33,7 @@ export default function Project({title, description, tags, imageUrl, url }: Proj
         </ul>
         </div>
       
-        <Image src={imageUrl} alt="project" quality={95} className='absolute top-8 -right-40 w-[28.25rem] rounded-t-lg shadow-2xl transition
+        <Image src={imageUrl} alt="project" quality={95} className='absolute hidden sm:block top-8 -right-40 w-[28.25rem] rounded-t-lg shadow-2xl transition
         group-hover:-translate-x-3
         group-hover:translate-y-3
         group-hover:-rotate-2

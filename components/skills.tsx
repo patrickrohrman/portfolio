@@ -18,7 +18,7 @@ export default function Skills() {
         <SectionHeading>My Skills</SectionHeading>
         <ul className='flex flex-wrap justify-center gap-2 text-lg text-gray-800' >
             { skillsData.map((skill, i) => (
-                <motion.li className='bg-white border border-black/[0.1] rounded-xl px-5 py-3' key={i} variants={fadeInAnimationVariants} initial="initial" whileInView="animate" viewport={{once:true}} custom={i}
+                <motion.li className='bg-white border border-black/[0.1] rounded-xl px-5 py-3 drop-shadow-md' key={i} variants={fadeInAnimationVariants} initial="initial" whileInView="animate" viewport={{once:true}} custom={i}
                 >{skill}</motion.li>
             )) }
         </ul>

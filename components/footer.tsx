@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 export default function Footer() {
   return (
@@ -6,7 +6,9 @@ export default function Footer() {
         <small className='block mb-2 text-xs'>
             &copy; {new Date().getFullYear()} Patrick Rohrman. All rights reserved.
         </small>
-        <p className='text-xs'>Built using React, Typescript, Next.js, Framer Motion, & Tailwind CSS.</p>
+        <p className='text-xs'>
+            Built using React, Typescript, Next.js, Framer Motion, & Tailwind CSS.
+        </p>
     </footer>
   )
 }

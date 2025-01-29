@@ -167,7 +167,7 @@ export default function Intro() {
           <BsLinkedin />
         </a>
         <a
-          href='http://https://github.com/patrickrohrman'
+          href='https://github.com/patrickrohrman'
           target='_blank'
           className='bg-white
           p-4

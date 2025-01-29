@@ -25,9 +25,9 @@ export default function Contact() {
       <p
         className='text-center text-gray-700 -my-5'
       >
-        If you want to get in touch, please email me directly at
+        If you want to get in touch, please email me directly at&nbsp;
         <a className='underline' href="mailto:prohrman@gmail.com">prohrman@gmail.com</a>
-        or use the form below.
+        &nbsp;or use the form below.
       </p>
       <form
         className='mt-10 flex flex-col'

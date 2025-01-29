@@ -6,6 +6,8 @@ import { motion } from 'framer-motion'
 import { useSectionInView } from '@/lib/hooks'
 import { sendEmail } from '@/actions/sendEmail'
 import { send } from 'process'
+import { data } from 'autoprefixer'
+import toast from 'react-hot-toast'
 
 export default function Contact() {
     const { ref } = useSectionInView("Contact");
@@ -18,6 +20,10 @@ export default function Contact() {
             <form
               className='mt-10 flex flex-col'
               action={async FormData => { await sendEmail(FormData)}}>
+               
+
+              
+
 
                 <input name="senderEmail" required maxLength={200} type="email" placeholder='you@email.com' className="h14 rounded-lg border border-black/15 p-4 focus:outline-black/50"/>
                 <textarea name="message" required maxLength={6000} placeholder="Your message." className='h-52 my-3 rounded-lg border border-black/15 p-4 focus:outline-black/50'></textarea>
